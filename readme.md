@@ -16,7 +16,7 @@ Setup: Running the Model
 ### Compile pdffigures2
 
 Deepfigures depends on pdffigures2 for caption extraction. You must
-compile the utility and place it into the `bin/` directory:
+compile the utility and place it into the `bin/` directory. You will also need to create a `bin/` folder for the jar file:
 
     git clone https://github.com/allenai/pdffigures2
     cd pdffigures2
@@ -29,6 +29,8 @@ If the jar for pdffigures has a different name then
 `'pdffigures2-assembly-0.0.12-SNAPSHOT.jar'`, then adjust the
 `PDFFIGURES_JAR_NAME` parameter in `deepfigures/settings.py`
 accordingly.
+
+You will also need to create a `bin/` folder for the jar file
 
 ### Download Weights for the Model
 
